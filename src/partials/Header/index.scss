@@ -1,0 +1,118 @@
+header#page-header {
+  background-color: var(--secondary-color);
+  width: 100vw;
+  height: 100vh;
+  padding: 38px 29px 0px 29px;
+
+  background-image: url(../../assets/3dimensions.svg), url(../../assets/bg.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-position-x: left, right;
+  background-position-y: top, bottom;
+  background-size: 70vw, 58vw;
+
+  display: flex;
+  flex-direction: row;
+
+  img#logo {
+    position: absolute;
+    align-self: flex-start;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  div.wrapper {
+    align-self: center;
+    max-width: 335px;
+    display: grid;
+    row-gap: 1.25rem;
+    padding-bottom: 2.7rem;
+
+    h1 {
+      color: white;
+      position: relative;
+      font-weight: bold;
+
+      .Typewriter {
+        min-width: 150px;
+        display: inline-block;
+      }
+    }
+
+    button {
+      justify-self: start;
+    }
+  }
+}
+
+@media (min-width: 576px) {
+  header#page-header {
+    background-size: 50vw, 58vw;
+  }
+}
+
+@media (min-width: 768px) {
+  header#page-header {
+    padding: 58px 29px 0px 86px;
+
+    img#logo {
+      left: initial;
+      transform: none;
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  header#page-header {
+    background-image: url(../../assets/3dimensions.svg),
+      url(../../assets/bg2.svg);
+    background-size: 400px, 100vh;
+  }
+}
+
+@media (min-width: 1200px) {
+  header#page-header {
+    background-size: 400px, 105vh;
+
+    div.wrapper {
+      max-width: 450px;
+
+      h1 {
+        .Typewriter {
+          min-width: 200px;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 1400px) {
+  header#page-header {
+    div.wrapper {
+      row-gap: 1.75rem;
+      padding-bottom: 0px;
+
+      h1 {
+        font-size: 3rem;
+        line-height: 3.5rem;
+
+        .Typewriter {
+          min-width: 300px;
+        }
+      }
+
+      h2 {
+        font-size: 1.5rem;
+      }
+    }
+  }
+}
+
+@media (min-width: 1600px) {
+  header#page-header {
+    padding-left: 11vw;
+
+    img#logo {
+      width: 150px;
+    }
+  }
+}

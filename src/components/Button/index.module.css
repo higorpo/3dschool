@@ -1,0 +1,28 @@
+button {
+  background: #f58a19;
+  color: white;
+  font-family: var(--title-font);
+  font-weight: normal;
+  font-size: 1rem;
+  padding: 8px 20px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+button:hover,
+button:active {
+  background: #d67813;
+}
+
+button:active,
+button:focus {
+  border: 2px solid rgb(255, 255, 255);
+}
+
+@media (min-width: 1600px) {
+  button {
+    padding: 10px 40px;
+    font-size: 1.3rem;
+  }
+}

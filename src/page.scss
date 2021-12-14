@@ -1,0 +1,13 @@
+div#page-landing {
+  main {
+    margin: 0px 29px;
+  }
+}
+
+@media (min-width: 768px) {
+  div#page-landing {
+    main {
+      margin: 0px 86px;
+    }
+  }
+}

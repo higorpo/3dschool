@@ -1,0 +1,25 @@
+@media (min-width: 992px) {
+  section#proposals {
+    > div:nth-child(2) {
+      flex-direction: row-reverse;
+
+      img {
+        margin-right: 0px;
+        margin-left: 40px;
+      }
+    }
+  }
+}
+
+@media (min-width: 1600px) {
+  section#proposals {
+    max-width: 1428px;
+    margin: 0px auto;
+
+    > div:nth-child(2) {
+      img {
+        margin-left: 80px;
+      }
+    }
+  }
+}

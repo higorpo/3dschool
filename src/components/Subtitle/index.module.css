@@ -1,0 +1,14 @@
+h2.subtitle {
+  font-family: var(--title-font);
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 1.4rem;
+  color: var(--color-gray4);
+}
+
+@media (min-width: 1200px) {
+  h2.subtitle {
+    font-size: 1.35rem;
+    line-height: 2.0625rem;
+  }
+}

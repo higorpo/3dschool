@@ -1,0 +1,16 @@
+footer#page-footer {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+
+  img {
+    align-self: center;
+  }
+}
+
+@media (min-width: 1200px) {
+  footer#page-footer {
+    padding: 80px;
+    padding-bottom: 60px;
+  }
+}

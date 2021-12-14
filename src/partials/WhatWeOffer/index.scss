@@ -1,0 +1,60 @@
+section#what-we-offer {
+  background-color: var(--primary-color);
+  margin-left: -29px;
+  margin-right: -29px;
+  padding: 29px;
+  padding-bottom: 55px;
+
+  h1 {
+    text-align: center;
+    color: white;
+    max-width: 300px;
+    margin: 0px auto;
+  }
+
+  div.wrapper {
+    max-width: 518px;
+    margin: 0px auto;
+    margin-top: 27px;
+    display: grid;
+    row-gap: 41px;
+  }
+}
+
+@media (min-width: 768px) {
+  section#what-we-offer {
+    margin-left: -86px;
+    margin-right: -86px;
+  }
+}
+
+@media (min-width: 992px) {
+  section#what-we-offer {
+    padding: 58px 86px 70px 86px;
+
+    div.wrapper {
+      max-width: none;
+      display: grid;
+      column-gap: 30px;
+      grid-template-columns: repeat(3, auto);
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  section#what-we-offer {
+    h1 {
+      max-width: none;
+      margin-bottom: 50px;
+    }
+  }
+}
+
+@media (min-width: 1600px) {
+  section#what-we-offer {
+    div.wrapper {
+      max-width: 1428px;
+      margin: 0px auto;
+    }
+  }
+}
