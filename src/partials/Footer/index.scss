@@ -6,6 +6,17 @@ footer#page-footer {
   img {
     align-self: center;
   }
+
+  p {
+    text-align: center;
+    margin-top: 10px;
+    font-family: var(--text-font);
+    color: var(--color-gray4);
+
+    a {
+      color: var(--primary-color);
+    }
+  }
 }
 
 @media (min-width: 1200px) {
